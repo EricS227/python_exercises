@@ -1,0 +1,10 @@
+# Leia uma frase e imprima quantas palavras ela tem.
+
+
+frase = input("Escreva uma frase: ")
+
+palavras = frase.split()
+
+quantity = len(palavras)
+
+print("A Frase tem", quantity, " Palavras.")
