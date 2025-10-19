@@ -1,0 +1,20 @@
+# Leia duas strings e diga se uma é anagrama da outra.
+
+#anagrama = []
+
+palavra = input("Digite uma palavra: ")
+palavra2 = input("Digite outra: ")
+
+
+
+def verificar_anagrama(palavra1, palavra2):
+    org1 = sorted(palavra1)
+    org2 = sorted(palavra2)
+
+    if org1 == org2:
+        print("É anagrama")
+    else:
+        print("Não é anagrama")
+ 
+
+verificar_anagrama(palavra, palavra2)
